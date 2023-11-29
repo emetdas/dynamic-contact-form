@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contact-us">
+      <form id="contactForm" autocomplete="off">
+        <input
+          type="text"
+          placeholder="Your Name"
+          id="name"
+          name="name"
+          required
+        />
+        <input
+          type="email"
+          placeholder="Your Email"
+          id="email"
+          name="email"
+          required
+        />
+        <input
+          type="tel"
+          placeholder="Your Phone"
+          id="phone"
+          name="phone"
+          minlength="9"
+          maxlength="14"
+          required
+        />
+        <textarea
+          name="message"
+          id="message"
+          placeholder="Your Message"
+          rows="4"
+          required
+        ></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
